@@ -1,0 +1,39 @@
+{
+  "name": "blender-backend",
+  "version": "1.0.0",
+  "description": "The backend of Blender plateform .",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaima-tn/Blender-backend.git"
+  },
+  "keywords": [
+    "blender",
+    "shop",
+    "grocery",
+    "backend",
+    "api",
+    "restful"
+  ],
+  "author": "Bouaziz Chaima , Khemissi Amir , Hammemi Chedi and Sliti Khalil .",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaima-tn/Blender-backend/issues"
+  },
+  "homepage": "https://github.com/chaima-tn/Blender-backend#readme",
+  "dependencies": {
+    "dotenv": "^9.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local-mongoose": "^6.1.0"
+  },
+  "devDependencies": {}
+}
